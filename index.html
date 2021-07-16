@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Dots & Boxes</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="app"></div>
+
+	<div class="winnertable">
+		<div>
+			<form action="" onsubmit="event.preventDefault(); createBoard()" class="input-group" >
+				<button type="submit" class="btn-success"></button>
+				<br>
+				<br>
+
+				<label for="boardSize" class="me-3 my-auto">Board size (x²): </label>
+				<input type="number" name="boardSize" id="boardSize" min=3 max=10 value=3>
+
+				<label for="firstToPlay" class="me-3 ms-3 my-auto">Bot first?: </label>
+				<input type="checkbox" name="firstToPlay" id="firstToPlay" class="ml-3 my-auto form-check-input">
+			</form>
+		</div>
+		<div class="playerbot">
+			🤖 : 0
+		</div>
+		<div class="playeruser">
+			👨‍💻 : 0
+		</div>
+
+		<div id="userwon">
+			<h2>User has won 👨‍💻</h2>
+		</div>
+		<div id="botwon">
+			<h2>'Bot' has won 🤖</h2>
+		</div>
+	</div>
+
+	
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+body {
+    padding: 10px;
+    margin: 0;   
+    background-color: white;
+    text-align: center;
+	font-family: sans-serif;
+}
+
+
+.playerbot{
+	margin: 0 auto;
+	color: blue;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+.playeruser{
+	margin: 0 auto;
+	color: red;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.cajita{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color: white;
+	color: white;
+	line-height: 50px;
+}
+
+.d-none{
+	display: none;
+}
+
+.winnertable{
+	position: absolute;
+	bottom: 3rem;
+	left: 40vw;
+}
+
+#userwon{
+	color: blue;
+}
+
+#botwon{
+	color: red;
+}
+
+
+.punto{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	background-color: gray;		
+	z-index: 1000;	
+}
+
+.linea{
+	position: absolute;
+	background-color: white;	
+	cursor: pointer;
+	z-index: 1;
+}
+
+.lineah{
+	height: 5px;
+	width: 50px;
+}
+
+.lineav{
+	height: 50px;
+	width: 5px;
+}
+
+.linea:hover{
+	background-color: #373737;
+}
+
+.linea-active{
+	background-color: #373737;
+}
+
+.my-auto{
+	margin: auto 0;
+}
+
+.btn-success{
+	box-shadow: none;
+	background-color: transparent;
+	width: 0 !important; 
+	height: 0 !important; 
+	border-top: 1rem solid transparent !important;
+	border-bottom: 1rem solid transparent !important;
+  	border-left: 1rem solid green !important;
+	border-right: 0;
+	margin-top: 1rem;
+	padding: 0;
+	cursor: pointer;
+}
+
+label{
+	font-weight: bolder;
+}
